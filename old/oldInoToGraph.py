@@ -124,7 +124,7 @@ def main():
                 aus = "{:.3f}".format(aus)                                                                                              #arrotondo il tempo ai millesimi di secondo
                 tempo.append(float(aus))                                                                                                #segno il tempo in cui ricevo il dato
             except IndexError:
-                x = "haha x go brr"
+                pass
     except KeyboardInterrupt:                                                                                                           #quando l'utente ferma il programma con ctrl+c eseguo il seguente
         dati = open('dati.txt', 'a')                                                                                                    #apro il file dei dati
         dati.write('\nLista di tempi:\t\t\tLista dei dati:\n')                                                                          #scrivo nel file tempo e dato
